@@ -27,26 +27,7 @@ python test.py --model_path best_model.pth --csv_file test_obesity_df.csv
 ```
 
 ## 데이터셋
-반려동물의 체중 상태를 예측하기 위해 다양한 이미지를 포함한 데이터셋을 사용합니다. 데이터셋은 공공 데이터로, 반려동물의 이미지와 비만도를 라벨링한 데이터를 포함하고 있습니다.
+https://aihub.or.kr/aihubdata/data/view.do?currMenu=&topMenu=&aihubDataSe=data&dataSetSn=71520
 
-## 주요 라이브러리
-프로젝트에서 사용하는 주요 라이브러리는 requirements.txt 파일을 통해 설치할 수 있습니다:
 
-* torch
-* torchvision
-* pandas
-* scikit-learn
-* tqdm
 
-## 참고 사항
-* 데이터셋은 별도로 다운로드하여 data/ 폴더에 위치시켜야 합니다.
-* 학습된 모델은 .pth 형식으로 저장되며, test.py 파일을 통해 평가에 사용됩니다.
-
-## 기여
-이 프로젝트에 기여하고 싶다면, 이슈를 생성하거나 풀 리퀘스트를 통해 제안해 주세요.
-
-## 라이선스
-이 프로젝트는 MIT 라이선스를 따릅니다.
-```
-
-이렇게 하면 전체 문서는 하나의 코드 블록이면서, 내부의 명령어들은 ```bash로 표시되어 복사하기 쉬운 형태가 됩니다. 이게 원하시는 형태인가요?
